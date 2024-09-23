@@ -1,16 +1,16 @@
 @import url("styles/header.css");
+@import url("styles/banner.css");
+
+/* código omitido */
+
 
 :root {
-    --cor-de-fundo: #00a2ec;
-    --branco: #4bbd00;
-    --laranja: rgb(255, 255, 255);
-    --azul-degrade: linear-gradient(97.54deg, #ffffff 35.49%, #ffffff 165.37%);
-    --font-principal:"Poppins";
+    --cor-de-fundo: #EBECEE;
+    --branco: #000000;
+    --laranja: #ffe600;
+    --azul-degrade: linear-gradient(97.54deg, #0099ff 35.49%, #0099ff 165.37%);
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    font-family: var(--font-principal);
-    font-size: 16px;
-    font-weight: 400;
 }
